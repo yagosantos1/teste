@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pedido de Namoro</title>
+	<style>
+		body {
+			background-color: #f7d5d5;
+			font-family: Arial, sans-serif;
+			text-align: center;
+		}
+
+		h1 {
+			color: #d62828;
+			font-size: 36px;
+			margin-top: 50px;
+		}
+
+		p {
+			color: #333;
+			font-size: 24px;
+			margin-top: 30px;
+		}
+
+		button {
+			background-color: #d62828;
+			border: none;
+			border-radius: 4px;
+			color: #fff;
+			font-size: 18px;
+			padding: 10px 20px;
+			margin-top: 50px;
+			cursor: pointer;
+		}
+
+		button:hover {
+			background-color: #b92b27;
+		}
+	</style>
+</head>
+<body>
+	<h1>Pedido de Namoro</h1>
+	<p>Eu gostaria de te pedir em namoro. Você aceita?</p>
+	<button onclick="alert('Que ótimo! Fico muito feliz. Te amo!')">Sim</button>
+	<button onclick="alert('Ah, que pena... Mas tudo bem, a amizade continua!')">Não</button>
+</body>
+</html>
+
